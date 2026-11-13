@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a,b, temp;
+
+    // Taking input from the user
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    printf("\nBefore swapping: a = %d, b = %d\n", a,b);
+
+    // Swapping logic using a third temporary variable
+    temp = a;   
+    first = b; 
+    second = temp;  
+
+    // Displaying the output after swapping
+    printf("After swapping: a = %d, b = %d\n", a,b);
+
+    return 0;
+}
