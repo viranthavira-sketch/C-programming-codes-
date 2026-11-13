@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+int X;
+    printf("ENTER ONE NUMBER : \n");
+    scanf("%d",&X);
+if(X%2==0 )
+    {printf("EVEN NUMBER ");
+
+
+        
+    }
+    
+    
+    
+    else{ printf("ODD NUMBER");    }
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
