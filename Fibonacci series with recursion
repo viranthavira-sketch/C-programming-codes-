@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+
+  int i, n,fib(int);
+    
+    printf("ENTER THE NUMBER YOU WANT TO SEE :     ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+printf("%d \n",fib(i));
+
+        
+    }   
+}
+int fib(int n)
+{if(n==1|| n==2)
+    return 1;
+ return (n-1)+(n-2);
+}
